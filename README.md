@@ -60,7 +60,7 @@ The results apply to sampled bands in this wind-tunnel dataset. All four distinc
 | `results/test_predictions.csv` | Measured inputs, targets, and predictions for the held-out rows |
 | `results/test_peaks.csv` | Exact peak frequencies, band error and level MAE by spectrum and model |
 | `results/fitted.joblib` | Selected fitted random forest |
-| `report/` | English two-page report, editable LaTeX source and vector figure |
+The two-page report is submitted separately.
 
 ## Report and authorship
 
