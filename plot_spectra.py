@@ -35,4 +35,5 @@ handles, labels = axes[0].get_legend_handles_labels()
 fig.legend(handles, labels, loc="upper center", ncol=2, frameon=False,
            bbox_to_anchor=(0.53, 1), fontsize=9)
 fig.subplots_adjust(left=0.09, right=0.982, bottom=0.2, top=0.76, wspace=0.15)
+(ROOT / "report").mkdir(exist_ok=True)
 fig.savefig(ROOT / "report" / "spectra.pdf", metadata={"Title":"Held-out NACA 0012 spectra"})
